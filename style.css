@@ -1,0 +1,192 @@
+body{
+    margin: 0 auto;
+}
+
+.container{
+    width:960px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: lightblue;
+    padding: 1%;
+}
+.box1{
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 280px;
+    top:0;
+}
+.box2{
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 300px;
+    top:20px;
+}
+.box3{
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 280px;
+    top:40px;
+}
+.box4{
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 300px;
+    top:60px;
+}
+.box5{
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 320px;
+    top:40px;
+}
+.box6{
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 340px;
+    top:60px;
+}
+.box7{
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue;
+    position: absolute;
+    right: 280px;
+    top:0;
+}
+.box8{
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    position: absolute;
+    right: 300px;
+    top:20px;
+}
+.box9{
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue;
+    position: absolute;
+    right: 280px;
+    top:40px;
+}
+.box10{
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    position: absolute;
+    right: 300px;
+    top:60px;
+}
+.box11{
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue;
+    position: absolute;
+    right: 320px;
+    top:40px;
+}
+.box12{
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    position: absolute;
+    right: 340px;
+    top:60px;
+}
+h1 {
+    color: black;
+    font-size: 2.5em;
+    margin: 0 auto;
+    font-family: "andalus", "Times New Roman" ;
+}
+main > article > h2{
+    text-align: center;
+    font-size: 1.875em;
+    font-family: "andalus", "Times New Roman";
+}
+aside > h2 {
+    text-align: center;
+    font-size: 1.875em;
+    font-family: "andalus", "Times New Roman";
+}
+p{
+    font-size: 0.980em;
+    font-family: "andalus", "Times New Roman";
+}
+nav{
+    margin-left: 35%;
+}
+main{
+    background-color: darkgrey;
+    width:60%;
+    height: 580px;
+    display: inline-block;
+    float: left;
+}
+main > article{
+    margin-left: 15px;
+}
+
+aside{
+    background-color: lightgrey;
+    width:40%;
+    height:580px;
+    display: inline-block;
+    float: right;
+}
+aside > p{
+    margin-left: 20px;
+}
+
+footer{
+    background-color: lightblue;
+    padding:3%;
+    clear: both;
+}
+.list1{
+    display: inline-block;
+}
+.list2{
+    display: inline-block;
+}
+.list3{
+    display: inline-block;
+}
+.list1 > ul > li{
+    color: black;
+    display: list-item;
+}
+.list2 > ul > li{
+    color: black;
+    display: list-item;
+}
+.list3 > ul > li{
+    color: black;
+    display: list-item;
+}
+
+main > img{
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 5%;
+}
+aside > img{
+    width: 275px;
+    margin-left: 15%;
+    margin-top: 10%;
+    border-radius: 10%;
+}
